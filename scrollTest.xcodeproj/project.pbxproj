@@ -15,6 +15,7 @@
 		74B5FEA81E2817CC0077828F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B5FEA61E2817CC0077828F /* LaunchScreen.storyboard */; };
 		74B5FEB31E2817CC0077828F /* scrollTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B5FEB21E2817CC0077828F /* scrollTestTests.m */; };
 		74B5FEBE1E2817CC0077828F /* scrollTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B5FEBD1E2817CC0077828F /* scrollTestUITests.m */; };
+		74B5FECD1E281AB50077828F /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B5FECC1E281AB50077828F /* UIView+YYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		74B5FEB91E2817CC0077828F /* scrollTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B5FEBD1E2817CC0077828F /* scrollTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollTestUITests.m; sourceTree = "<group>"; };
 		74B5FEBF1E2817CC0077828F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B5FECB1E281AB50077828F /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		74B5FECC1E281AB50077828F /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		74B5FE971E2817CC0077828F /* scrollTest */ = {
 			isa = PBXGroup;
 			children = (
+				74B5FECB1E281AB50077828F /* UIView+YYAdd.h */,
+				74B5FECC1E281AB50077828F /* UIView+YYAdd.m */,
 				74B5FE9B1E2817CC0077828F /* AppDelegate.h */,
 				74B5FE9C1E2817CC0077828F /* AppDelegate.m */,
 				74B5FE9E1E2817CC0077828F /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B5FECD1E281AB50077828F /* UIView+YYAdd.m in Sources */,
 				74B5FEA01E2817CC0077828F /* ViewController.m in Sources */,
 				74B5FE9D1E2817CC0077828F /* AppDelegate.m in Sources */,
 				74B5FE9A1E2817CC0077828F /* main.m in Sources */,
